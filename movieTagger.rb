@@ -136,6 +136,8 @@ end
 def buildStupidXML(actors,directors)
     #actors = fetchMovieCast(movieID).split(", ")
     #directors = fetchMovieDirectors(movieID).split(", ")
+    actors = actors.split(", ")
+    directors = directors.split(", ")
     xml = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n"
     xml += "<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\""
     xml += " \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">\n"
@@ -295,7 +297,7 @@ Dir.glob("/Users/Alex/Desktop/**/*.{tag}") do |tagPath|
             puts "Found movie file: #{movieName}"
             
             #Create the XML data that will be injected for Apple TV
-            xml = buildStupidXML(tagData["actors"],tagData["directors"])
+            xml = buildStupidXML(tagData["artist"],tagData["directors"])
 
             #Remove the key (and its value) "id" from the hash because it does
             #not need to be passed to atomic parsley. Also, clone the hash
@@ -318,7 +320,7 @@ Dir.glob("/Users/Alex/Desktop/**/*.{tag}") do |tagPath|
             end
 
             #Create a string to hold the command we are going to execute
-            cmd = esc{$atomicParsley)+" "+esc(moviePath)+" --overWrite"
+            cmd = esc($atomicParsley)+" "+esc(moviePath)+" --overWrite"
 
             #Loop thorugh each one of the keys in the tag file and add it
             #to the command we are going to execute
