@@ -1,0 +1,7 @@
+Here is the version of Atomic Parsley I'm using
+
+https://bitbucket.org/shield007/atomicparsley
+
+There is mac source code available.
+
+My preference would be to make the main Atomic Parsley work but I could never figure out how to make the atom structures work. I tried and it seemed buggy so I found this. There are several other forks that add the same features but this one has served me well. There may be a mac executable available out of the box but I haven't checked.

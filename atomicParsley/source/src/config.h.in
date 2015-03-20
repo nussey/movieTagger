@@ -1,0 +1,80 @@
+//==================================================================//
+/*
+    AtomicParsley - config.h
+
+    AtomicParsley is GPL software; you can freely distribute,
+    redistribute, modify & use under the terms of the GNU General
+    Public License; either version 2 or its successor.
+
+    AtomicParsley is distributed under the GPL "AS IS", without
+    any warranty; without the implied warranty of merchantability
+    or fitness for either an expressed or implied particular purpose.
+
+    Please see the included GNU General Public License (GPL) for
+    your rights and further details; see the file COPYING. If you
+    cannot, write to the Free Software Foundation, 59 Temple Place
+    Suite 330, Boston, MA 02111-1307, USA.  Or www.fsf.org
+
+    Copyright ©2012
+    with contributions from others; see the CREDITS file
+                                                                   */
+//==================================================================//
+
+#define VERSION "@VERSION@"
+#define PACKAGE "@PACKAGE@"
+#define PACKAGE_VERSION "@VERSION@"
+#define PACKAGE_BUGREPORT "@PACKAGE_BUGREPORT@"
+#define PACKAGE_NAME "@PACKAGE_NAME@"
+
+#cmakedefine DARWIN_PLATFORM 1
+
+#cmakedefine HAVE_MALLOC_H 1
+#cmakedefine HAVE_WINDOWS_H 1
+#cmakedefine HAVE_SYS_TIME_H 1
+#cmakedefine HAVE_STDDEF_H 1
+#cmakedefine HAVE_STDINT_H 1
+#cmakedefine HAVE_INTTYPES_H 1
+#cmakedefine HAVE_FCNTL_H 1
+#cmakedefine HAVE_SYS_IOCTL_H 1
+#cmakedefine HAVE_LINUX_CDROM_H 1
+#cmakedefine HAVE_SYS_MOUNT_H 1
+#cmakedefine HAVE_SYS_PARAM_H 1
+#cmakedefine HAVE_WCHAR_H 1
+#cmakedefine HAVE_SYS_STAT_H 1
+#cmakedefine HAVE_UNISTD_H 1
+#cmakedefine HAVE_IO_H 1
+#cmakedefine HAVE_SIGNAL_H 1
+#cmakedefine HAVE_GETOPT_H 1
+
+#cmakedefine HAVE_FSEEKO 1
+#cmakedefine HAVE_FSETPOS 1
+#cmakedefine HAVE_LROUNDF 1
+#cmakedefine HAVE_MALLOC 1
+#cmakedefine HAVE_MEMCMP 1
+#cmakedefine HAVE_MEMSET 1
+#cmakedefine HAVE_REMOVE 1
+#cmakedefine HAVE_RENAME 1
+#cmakedefine HAVE_SCANF 1
+#cmakedefine HAVE_STRDUP 1
+#cmakedefine HAVE_ERROR 1
+#cmakedefine HAVE_STRFTIME 1
+#cmakedefine HAVE_STRNCASECMP 1
+#cmakedefine HAVE_STRNCMP 1
+#cmakedefine HAVE_STRRCHR 1
+#cmakedefine HAVE_STRSEP 1
+#cmakedefine HAVE_STRSTR 1
+#cmakedefine HAVE_STRTOL 1
+#cmakedefine HAVE_WMEMSET 1
+#cmakedefine HAVE_SNPRINTF 1
+#cmakedefine HAVE__SNPRINTF 1
+#cmakedefine HAVE_STRTOUMAX 1
+
+#cmakedefine HAVE_UINTMAX_T 1
+#cmakedefine HAVE_UINTPTR_T 1
+#cmakedefine HAVE_UNSIGNED_LONG_LONG_INT 1
+
+#ifdef HAVE__SNPRINTF
+#ifndef snprintf
+#define snprintf _snprintf
+#endif
+#endif

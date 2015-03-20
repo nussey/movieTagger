@@ -1,0 +1,1026 @@
+The system is: Darwin - 14.1.0 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is AppleClang, found in "/Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/3.1.0/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is AppleClang, found in "/Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/3.1.0/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1007933372/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec1007933372.dir/build.make CMakeFiles/cmTryCompileExec1007933372.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1007933372.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1007933372.dir/testCCompiler.c.o   -c /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec1007933372
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1007933372.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec1007933372.dir/testCCompiler.c.o  -o cmTryCompileExec1007933372  
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1512218759/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec1512218759.dir/build.make CMakeFiles/cmTryCompileExec1512218759.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1512218759.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1512218759.dir/CMakeCCompilerABI.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.1/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec1512218759
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1512218759.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v -Wl,-v CMakeFiles/cmTryCompileExec1512218759.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec1512218759   
+Apple LLVM version 6.0 (clang-600.0.56) (based on LLVM 3.5svn)
+Target: x86_64-apple-darwin14.1.0
+Thread model: posix
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.10.0 -o cmTryCompileExec1512218759 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTryCompileExec1512218759.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/6.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-241.9
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7m armv7em
+Library search paths:
+	/usr/lib
+	/usr/local/lib
+Framework search paths:
+	/Library/Frameworks/
+	/System/Library/Frameworks/
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec1512218759/fast"]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec1512218759.dir/build.make CMakeFiles/cmTryCompileExec1512218759.dir/build]
+  ignore line: [/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec1512218759.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1512218759.dir/CMakeCCompilerABI.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.1/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec1512218759]
+  ignore line: [/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1512218759.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v -Wl,-v CMakeFiles/cmTryCompileExec1512218759.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec1512218759   ]
+  ignore line: [Apple LLVM version 6.0 (clang-600.0.56) (based on LLVM 3.5svn)]
+  ignore line: [Target: x86_64-apple-darwin14.1.0]
+  ignore line: [Thread model: posix]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.10.0 -o cmTryCompileExec1512218759 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTryCompileExec1512218759.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/6.0/lib/darwin/libclang_rt.osx.a]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.10.0] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec1512218759] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTryCompileExec1512218759.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/6.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/6.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/usr/lib;/usr/local/lib]
+  Framework search paths: [;/Library/Frameworks/;/System/Library/Frameworks/]
+  remove lib [System]
+  collapse lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/6.0/lib/darwin/libclang_rt.osx.a] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/6.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+  collapse framework dir [/Library/Frameworks/] ==> [/Library/Frameworks]
+  collapse framework dir [/System/Library/Frameworks/] ==> [/System/Library/Frameworks]
+  implicit libs: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/6.0/lib/darwin/libclang_rt.osx.a]
+  implicit dirs: [/usr/lib;/usr/local/lib]
+  implicit fwks: [/Library/Frameworks;/System/Library/Frameworks]
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3763811024/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec3763811024.dir/build.make CMakeFiles/cmTryCompileExec3763811024.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3763811024.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec3763811024.dir/testCXXCompiler.cxx.o -c /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec3763811024
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3763811024.dir/link.txt --verbose=1
+/usr/bin/c++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec3763811024.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec3763811024  
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3158093029/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec3158093029.dir/build.make CMakeFiles/cmTryCompileExec3158093029.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3158093029.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec3158093029.dir/CMakeCXXCompilerABI.cpp.o -c /Applications/CMake.app/Contents/share/cmake-3.1/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec3158093029
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3158093029.dir/link.txt --verbose=1
+/usr/bin/c++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v -Wl,-v CMakeFiles/cmTryCompileExec3158093029.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec3158093029   
+Apple LLVM version 6.0 (clang-600.0.56) (based on LLVM 3.5svn)
+Target: x86_64-apple-darwin14.1.0
+Thread model: posix
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.10.0 -o cmTryCompileExec3158093029 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTryCompileExec3158093029.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/6.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-241.9
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7m armv7em
+Library search paths:
+	/usr/lib
+	/usr/local/lib
+Framework search paths:
+	/Library/Frameworks/
+	/System/Library/Frameworks/
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec3158093029/fast"]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec3158093029.dir/build.make CMakeFiles/cmTryCompileExec3158093029.dir/build]
+  ignore line: [/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec3158093029.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec3158093029.dir/CMakeCXXCompilerABI.cpp.o -c /Applications/CMake.app/Contents/share/cmake-3.1/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec3158093029]
+  ignore line: [/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3158093029.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v -Wl,-v CMakeFiles/cmTryCompileExec3158093029.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec3158093029   ]
+  ignore line: [Apple LLVM version 6.0 (clang-600.0.56) (based on LLVM 3.5svn)]
+  ignore line: [Target: x86_64-apple-darwin14.1.0]
+  ignore line: [Thread model: posix]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.10.0 -o cmTryCompileExec3158093029 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTryCompileExec3158093029.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/6.0/lib/darwin/libclang_rt.osx.a]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.10.0] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec3158093029] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTryCompileExec3158093029.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lc++] ==> lib [c++]
+    arg [-lSystem] ==> lib [System]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/6.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/6.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/usr/lib;/usr/local/lib]
+  Framework search paths: [;/Library/Frameworks/;/System/Library/Frameworks/]
+  remove lib [System]
+  collapse lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/6.0/lib/darwin/libclang_rt.osx.a] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/6.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+  collapse framework dir [/Library/Frameworks/] ==> [/Library/Frameworks]
+  collapse framework dir [/System/Library/Frameworks/] ==> [/System/Library/Frameworks]
+  implicit libs: [c++;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/6.0/lib/darwin/libclang_rt.osx.a]
+  implicit dirs: [/usr/lib;/usr/local/lib]
+  implicit fwks: [/Library/Frameworks;/System/Library/Frameworks]
+
+
+Determining if files sys/time.h exist passed with the following output:
+Change Dir: /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2151778713/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec2151778713.dir/build.make CMakeFiles/cmTryCompileExec2151778713.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2151778713.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2151778713.dir/CheckIncludeFiles.c.o   -c /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2151778713
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2151778713.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec2151778713.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2151778713  
+
+
+Determining if files stddef.h exist passed with the following output:
+Change Dir: /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec745583639/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec745583639.dir/build.make CMakeFiles/cmTryCompileExec745583639.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec745583639.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec745583639.dir/CheckIncludeFiles.c.o   -c /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec745583639
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec745583639.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec745583639.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec745583639  
+
+
+Determining if files stdint.h exist passed with the following output:
+Change Dir: /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1415966800/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec1415966800.dir/build.make CMakeFiles/cmTryCompileExec1415966800.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1415966800.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1415966800.dir/CheckIncludeFiles.c.o   -c /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1415966800
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1415966800.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec1415966800.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1415966800  
+
+
+Determining if files inttypes.h exist passed with the following output:
+Change Dir: /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec48823509/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec48823509.dir/build.make CMakeFiles/cmTryCompileExec48823509.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec48823509.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec48823509.dir/CheckIncludeFiles.c.o   -c /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec48823509
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec48823509.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec48823509.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec48823509  
+
+
+Determining if files fcntl.h exist passed with the following output:
+Change Dir: /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2032006696/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec2032006696.dir/build.make CMakeFiles/cmTryCompileExec2032006696.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2032006696.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2032006696.dir/CheckIncludeFiles.c.o   -c /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2032006696
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2032006696.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec2032006696.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2032006696  
+
+
+Determining if files sys/ioctl.h exist passed with the following output:
+Change Dir: /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3828601714/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec3828601714.dir/build.make CMakeFiles/cmTryCompileExec3828601714.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3828601714.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3828601714.dir/CheckIncludeFiles.c.o   -c /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3828601714
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3828601714.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec3828601714.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3828601714  
+
+
+Determining if files sys/mount.h exist passed with the following output:
+Change Dir: /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1313888992/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec1313888992.dir/build.make CMakeFiles/cmTryCompileExec1313888992.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1313888992.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1313888992.dir/CheckIncludeFiles.c.o   -c /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1313888992
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1313888992.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec1313888992.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1313888992  
+
+
+Determining if files sys/param.h exist passed with the following output:
+Change Dir: /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec484455374/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec484455374.dir/build.make CMakeFiles/cmTryCompileExec484455374.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec484455374.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec484455374.dir/CheckIncludeFiles.c.o   -c /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec484455374
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec484455374.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec484455374.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec484455374  
+
+
+Determining if files wchar.h exist passed with the following output:
+Change Dir: /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec486542006/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec486542006.dir/build.make CMakeFiles/cmTryCompileExec486542006.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec486542006.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec486542006.dir/CheckIncludeFiles.c.o   -c /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec486542006
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec486542006.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec486542006.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec486542006  
+
+
+Determining if files sys/stat.h exist passed with the following output:
+Change Dir: /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec558918297/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec558918297.dir/build.make CMakeFiles/cmTryCompileExec558918297.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec558918297.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec558918297.dir/CheckIncludeFiles.c.o   -c /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec558918297
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec558918297.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec558918297.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec558918297  
+
+
+Determining if files unistd.h exist passed with the following output:
+Change Dir: /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1788950533/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec1788950533.dir/build.make CMakeFiles/cmTryCompileExec1788950533.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1788950533.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1788950533.dir/CheckIncludeFiles.c.o   -c /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1788950533
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1788950533.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec1788950533.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1788950533  
+
+
+Determining if files signal.h exist passed with the following output:
+Change Dir: /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3795377182/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec3795377182.dir/build.make CMakeFiles/cmTryCompileExec3795377182.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3795377182.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3795377182.dir/CheckIncludeFiles.c.o   -c /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3795377182
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3795377182.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec3795377182.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3795377182  
+
+
+Determining if files getopt.h exist passed with the following output:
+Change Dir: /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4189166799/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec4189166799.dir/build.make CMakeFiles/cmTryCompileExec4189166799.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4189166799.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec4189166799.dir/CheckIncludeFiles.c.o   -c /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec4189166799
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4189166799.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec4189166799.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec4189166799  
+
+
+Determining if the function fseeko exists passed with the following output:
+Change Dir: /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1809558097/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec1809558097.dir/build.make CMakeFiles/cmTryCompileExec1809558097.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1809558097.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=fseeko   -o CMakeFiles/cmTryCompileExec1809558097.dir/CheckFunctionExists.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1809558097
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1809558097.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=fseeko -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec1809558097.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1809558097  
+
+
+Determining if the function fsetpos exists passed with the following output:
+Change Dir: /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec544143451/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec544143451.dir/build.make CMakeFiles/cmTryCompileExec544143451.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec544143451.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=fsetpos   -o CMakeFiles/cmTryCompileExec544143451.dir/CheckFunctionExists.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec544143451
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec544143451.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=fsetpos -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec544143451.dir/CheckFunctionExists.c.o  -o cmTryCompileExec544143451  
+
+
+Determining if the function lroundf exists passed with the following output:
+Change Dir: /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2829119647/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec2829119647.dir/build.make CMakeFiles/cmTryCompileExec2829119647.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2829119647.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=lroundf   -o CMakeFiles/cmTryCompileExec2829119647.dir/CheckFunctionExists.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c
+/Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c:3:6: warning: incompatible redeclaration of library function 'lroundf' [-Wincompatible-library-redeclaration]
+char CHECK_FUNCTION_EXISTS();
+     ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS lroundf
+                              ^
+/Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c:3:6: note: 'lroundf' is a builtin with type 'long (float)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS lroundf
+                              ^
+1 warning generated.
+Linking C executable cmTryCompileExec2829119647
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2829119647.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=lroundf -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec2829119647.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2829119647  
+
+
+Determining if the function malloc exists passed with the following output:
+Change Dir: /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2528781169/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec2528781169.dir/build.make CMakeFiles/cmTryCompileExec2528781169.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2528781169.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=malloc   -o CMakeFiles/cmTryCompileExec2528781169.dir/CheckFunctionExists.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c
+/Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c:3:6: warning: incompatible redeclaration of library function 'malloc' [-Wincompatible-library-redeclaration]
+char CHECK_FUNCTION_EXISTS();
+     ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS malloc
+                              ^
+/Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c:3:6: note: 'malloc' is a builtin with type 'void *(unsigned long)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS malloc
+                              ^
+1 warning generated.
+Linking C executable cmTryCompileExec2528781169
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2528781169.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=malloc -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec2528781169.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2528781169  
+
+
+Determining if the function memcmp exists passed with the following output:
+Change Dir: /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1103555387/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec1103555387.dir/build.make CMakeFiles/cmTryCompileExec1103555387.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1103555387.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=memcmp   -o CMakeFiles/cmTryCompileExec1103555387.dir/CheckFunctionExists.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c
+/Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c:3:6: warning: incompatible redeclaration of library function 'memcmp' [-Wincompatible-library-redeclaration]
+char CHECK_FUNCTION_EXISTS();
+     ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS memcmp
+                              ^
+/Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c:3:6: note: 'memcmp' is a builtin with type 'int (const void *, const void *, unsigned long)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS memcmp
+                              ^
+1 warning generated.
+Linking C executable cmTryCompileExec1103555387
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1103555387.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=memcmp -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec1103555387.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1103555387  
+
+
+Determining if the function memset exists passed with the following output:
+Change Dir: /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec105774076/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec105774076.dir/build.make CMakeFiles/cmTryCompileExec105774076.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec105774076.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=memset   -o CMakeFiles/cmTryCompileExec105774076.dir/CheckFunctionExists.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c
+/Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c:3:6: warning: incompatible redeclaration of library function 'memset' [-Wincompatible-library-redeclaration]
+char CHECK_FUNCTION_EXISTS();
+     ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS memset
+                              ^
+/Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c:3:6: note: 'memset' is a builtin with type 'void *(void *, int, unsigned long)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS memset
+                              ^
+1 warning generated.
+Linking C executable cmTryCompileExec105774076
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec105774076.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=memset -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec105774076.dir/CheckFunctionExists.c.o  -o cmTryCompileExec105774076  
+
+
+Determining if the function remove exists passed with the following output:
+Change Dir: /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1025421887/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec1025421887.dir/build.make CMakeFiles/cmTryCompileExec1025421887.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1025421887.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTryCompileExec1025421887.dir/CheckFunctionExists.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1025421887
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1025421887.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec1025421887.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1025421887  
+
+
+Determining if the function rename exists passed with the following output:
+Change Dir: /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1355224760/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec1355224760.dir/build.make CMakeFiles/cmTryCompileExec1355224760.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1355224760.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=rename   -o CMakeFiles/cmTryCompileExec1355224760.dir/CheckFunctionExists.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1355224760
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1355224760.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=rename -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec1355224760.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1355224760  
+
+
+Determining if the function scanf exists passed with the following output:
+Change Dir: /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1229291804/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec1229291804.dir/build.make CMakeFiles/cmTryCompileExec1229291804.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1229291804.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=scanf   -o CMakeFiles/cmTryCompileExec1229291804.dir/CheckFunctionExists.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c
+/Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c:3:6: warning: incompatible redeclaration of library function 'scanf' [-Wincompatible-library-redeclaration]
+char CHECK_FUNCTION_EXISTS();
+     ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS scanf
+                              ^
+/Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c:3:6: note: 'scanf' is a builtin with type 'int (const char *restrict, ...)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS scanf
+                              ^
+1 warning generated.
+Linking C executable cmTryCompileExec1229291804
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1229291804.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=scanf -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec1229291804.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1229291804  
+
+
+Determining if the function strdup exists passed with the following output:
+Change Dir: /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3145496426/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec3145496426.dir/build.make CMakeFiles/cmTryCompileExec3145496426.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3145496426.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strdup   -o CMakeFiles/cmTryCompileExec3145496426.dir/CheckFunctionExists.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c
+/Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c:3:6: warning: incompatible redeclaration of library function 'strdup' [-Wincompatible-library-redeclaration]
+char CHECK_FUNCTION_EXISTS();
+     ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strdup
+                              ^
+/Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c:3:6: note: 'strdup' is a builtin with type 'char *(const char *)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strdup
+                              ^
+1 warning generated.
+Linking C executable cmTryCompileExec3145496426
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3145496426.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strdup -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec3145496426.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3145496426  
+
+
+Determining if the function strerror exists passed with the following output:
+Change Dir: /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2804389032/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec2804389032.dir/build.make CMakeFiles/cmTryCompileExec2804389032.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2804389032.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strerror   -o CMakeFiles/cmTryCompileExec2804389032.dir/CheckFunctionExists.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c
+/Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c:3:6: warning: incompatible redeclaration of library function 'strerror' [-Wincompatible-library-redeclaration]
+char CHECK_FUNCTION_EXISTS();
+     ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strerror
+                              ^
+/Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c:3:6: note: 'strerror' is a builtin with type 'char *(int)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strerror
+                              ^
+1 warning generated.
+Linking C executable cmTryCompileExec2804389032
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2804389032.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strerror -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec2804389032.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2804389032  
+
+
+Determining if the function strftime exists passed with the following output:
+Change Dir: /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec133486566/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec133486566.dir/build.make CMakeFiles/cmTryCompileExec133486566.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec133486566.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strftime   -o CMakeFiles/cmTryCompileExec133486566.dir/CheckFunctionExists.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec133486566
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec133486566.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strftime -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec133486566.dir/CheckFunctionExists.c.o  -o cmTryCompileExec133486566  
+
+
+Determining if the function strncasecmp exists passed with the following output:
+Change Dir: /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1928932854/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec1928932854.dir/build.make CMakeFiles/cmTryCompileExec1928932854.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1928932854.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strncasecmp   -o CMakeFiles/cmTryCompileExec1928932854.dir/CheckFunctionExists.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c
+/Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c:3:6: warning: incompatible redeclaration of library function 'strncasecmp' [-Wincompatible-library-redeclaration]
+char CHECK_FUNCTION_EXISTS();
+     ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strncasecmp
+                              ^
+/Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c:3:6: note: 'strncasecmp' is a builtin with type 'int (const char *, const char *, unsigned long)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strncasecmp
+                              ^
+1 warning generated.
+Linking C executable cmTryCompileExec1928932854
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1928932854.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strncasecmp -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec1928932854.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1928932854  
+
+
+Determining if the function strncmp exists passed with the following output:
+Change Dir: /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1454660017/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec1454660017.dir/build.make CMakeFiles/cmTryCompileExec1454660017.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1454660017.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strncmp   -o CMakeFiles/cmTryCompileExec1454660017.dir/CheckFunctionExists.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c
+/Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c:3:6: warning: incompatible redeclaration of library function 'strncmp' [-Wincompatible-library-redeclaration]
+char CHECK_FUNCTION_EXISTS();
+     ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strncmp
+                              ^
+/Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c:3:6: note: 'strncmp' is a builtin with type 'int (const char *, const char *, unsigned long)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strncmp
+                              ^
+1 warning generated.
+Linking C executable cmTryCompileExec1454660017
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1454660017.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strncmp -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec1454660017.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1454660017  
+
+
+Determining if the function strrchr exists passed with the following output:
+Change Dir: /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1516685651/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec1516685651.dir/build.make CMakeFiles/cmTryCompileExec1516685651.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1516685651.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strrchr   -o CMakeFiles/cmTryCompileExec1516685651.dir/CheckFunctionExists.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c
+/Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c:3:6: warning: incompatible redeclaration of library function 'strrchr' [-Wincompatible-library-redeclaration]
+char CHECK_FUNCTION_EXISTS();
+     ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strrchr
+                              ^
+/Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c:3:6: note: 'strrchr' is a builtin with type 'char *(const char *, int)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strrchr
+                              ^
+1 warning generated.
+Linking C executable cmTryCompileExec1516685651
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1516685651.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strrchr -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec1516685651.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1516685651  
+
+
+Determining if the function strsep exists passed with the following output:
+Change Dir: /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1047072711/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec1047072711.dir/build.make CMakeFiles/cmTryCompileExec1047072711.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1047072711.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strsep   -o CMakeFiles/cmTryCompileExec1047072711.dir/CheckFunctionExists.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1047072711
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1047072711.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strsep -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec1047072711.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1047072711  
+
+
+Determining if the function strstr exists passed with the following output:
+Change Dir: /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4281368788/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec4281368788.dir/build.make CMakeFiles/cmTryCompileExec4281368788.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4281368788.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strstr   -o CMakeFiles/cmTryCompileExec4281368788.dir/CheckFunctionExists.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c
+/Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c:3:6: warning: incompatible redeclaration of library function 'strstr' [-Wincompatible-library-redeclaration]
+char CHECK_FUNCTION_EXISTS();
+     ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strstr
+                              ^
+/Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c:3:6: note: 'strstr' is a builtin with type 'char *(const char *, const char *)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strstr
+                              ^
+1 warning generated.
+Linking C executable cmTryCompileExec4281368788
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4281368788.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strstr -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec4281368788.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4281368788  
+
+
+Determining if the function strtol exists passed with the following output:
+Change Dir: /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2295112130/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec2295112130.dir/build.make CMakeFiles/cmTryCompileExec2295112130.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2295112130.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strtol   -o CMakeFiles/cmTryCompileExec2295112130.dir/CheckFunctionExists.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2295112130
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2295112130.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strtol -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec2295112130.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2295112130  
+
+
+Determining if the function wmemset exists passed with the following output:
+Change Dir: /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3799568737/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec3799568737.dir/build.make CMakeFiles/cmTryCompileExec3799568737.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3799568737.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=wmemset   -o CMakeFiles/cmTryCompileExec3799568737.dir/CheckFunctionExists.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3799568737
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3799568737.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=wmemset -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec3799568737.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3799568737  
+
+
+Determining if the function snprintf exists passed with the following output:
+Change Dir: /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2811603770/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec2811603770.dir/build.make CMakeFiles/cmTryCompileExec2811603770.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2811603770.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=snprintf   -o CMakeFiles/cmTryCompileExec2811603770.dir/CheckFunctionExists.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c
+/Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c:3:6: warning: incompatible redeclaration of library function 'snprintf' [-Wincompatible-library-redeclaration]
+char CHECK_FUNCTION_EXISTS();
+     ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS snprintf
+                              ^
+/Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c:3:6: note: 'snprintf' is a builtin with type 'int (char *, unsigned long, const char *, ...)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS snprintf
+                              ^
+1 warning generated.
+Linking C executable cmTryCompileExec2811603770
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2811603770.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=snprintf -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec2811603770.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2811603770  
+
+
+Determining if the function strtoumax exists passed with the following output:
+Change Dir: /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2282505314/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec2282505314.dir/build.make CMakeFiles/cmTryCompileExec2282505314.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2282505314.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strtoumax   -o CMakeFiles/cmTryCompileExec2282505314.dir/CheckFunctionExists.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2282505314
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2282505314.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strtoumax -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec2282505314.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2282505314  
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec950135614/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec950135614.dir/build.make CMakeFiles/cmTryCompileExec950135614.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec950135614.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec950135614.dir/CheckIncludeFile.c.o   -c /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec950135614
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec950135614.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec950135614.dir/CheckIncludeFile.c.o  -o cmTryCompileExec950135614  
+
+
+Determining size of long long int passed with the following output:
+Change Dir: /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec950981070/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec950981070.dir/build.make CMakeFiles/cmTryCompileExec950981070.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec950981070.dir/LONG_LONG_INT.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec950981070.dir/LONG_LONG_INT.c.o   -c /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CheckTypeSize/LONG_LONG_INT.c
+Linking C executable cmTryCompileExec950981070
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec950981070.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec950981070.dir/LONG_LONG_INT.c.o  -o cmTryCompileExec950981070  
+
+
+Determining size of unsigned long long passed with the following output:
+Change Dir: /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2691253591/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec2691253591.dir/build.make CMakeFiles/cmTryCompileExec2691253591.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2691253591.dir/UNSIGNED_LONG_LONG.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2691253591.dir/UNSIGNED_LONG_LONG.c.o   -c /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CheckTypeSize/UNSIGNED_LONG_LONG.c
+Linking C executable cmTryCompileExec2691253591
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2691253591.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec2691253591.dir/UNSIGNED_LONG_LONG.c.o  -o cmTryCompileExec2691253591  
+
+
+Determining size of unsigned long long int passed with the following output:
+Change Dir: /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3303323447/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec3303323447.dir/build.make CMakeFiles/cmTryCompileExec3303323447.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3303323447.dir/UNSIGNED_LONG_LONG_INT.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3303323447.dir/UNSIGNED_LONG_LONG_INT.c.o   -c /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CheckTypeSize/UNSIGNED_LONG_LONG_INT.c
+Linking C executable cmTryCompileExec3303323447
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3303323447.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec3303323447.dir/UNSIGNED_LONG_LONG_INT.c.o  -o cmTryCompileExec3303323447  
+
+
+Determining size of dev_t passed with the following output:
+Change Dir: /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4137976847/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec4137976847.dir/build.make CMakeFiles/cmTryCompileExec4137976847.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4137976847.dir/DEV_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec4137976847.dir/DEV_T.c.o   -c /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CheckTypeSize/DEV_T.c
+Linking C executable cmTryCompileExec4137976847
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4137976847.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec4137976847.dir/DEV_T.c.o  -o cmTryCompileExec4137976847  
+
+
+Determining size of gid_t passed with the following output:
+Change Dir: /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1860611260/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec1860611260.dir/build.make CMakeFiles/cmTryCompileExec1860611260.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1860611260.dir/GID_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1860611260.dir/GID_T.c.o   -c /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CheckTypeSize/GID_T.c
+Linking C executable cmTryCompileExec1860611260
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1860611260.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec1860611260.dir/GID_T.c.o  -o cmTryCompileExec1860611260  
+
+
+Determining size of id_t passed with the following output:
+Change Dir: /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1117805686/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec1117805686.dir/build.make CMakeFiles/cmTryCompileExec1117805686.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1117805686.dir/ID_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1117805686.dir/ID_T.c.o   -c /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CheckTypeSize/ID_T.c
+Linking C executable cmTryCompileExec1117805686
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1117805686.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec1117805686.dir/ID_T.c.o  -o cmTryCompileExec1117805686  
+
+
+Determining size of int64_t passed with the following output:
+Change Dir: /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1060560251/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec1060560251.dir/build.make CMakeFiles/cmTryCompileExec1060560251.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1060560251.dir/INT64_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1060560251.dir/INT64_T.c.o   -c /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CheckTypeSize/INT64_T.c
+Linking C executable cmTryCompileExec1060560251
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1060560251.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec1060560251.dir/INT64_T.c.o  -o cmTryCompileExec1060560251  
+
+
+Determining size of intmax_t passed with the following output:
+Change Dir: /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2365025113/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec2365025113.dir/build.make CMakeFiles/cmTryCompileExec2365025113.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2365025113.dir/INTMAX_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2365025113.dir/INTMAX_T.c.o   -c /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CheckTypeSize/INTMAX_T.c
+Linking C executable cmTryCompileExec2365025113
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2365025113.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec2365025113.dir/INTMAX_T.c.o  -o cmTryCompileExec2365025113  
+
+
+Determining size of mode_t passed with the following output:
+Change Dir: /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3271659062/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec3271659062.dir/build.make CMakeFiles/cmTryCompileExec3271659062.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3271659062.dir/MODE_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3271659062.dir/MODE_T.c.o   -c /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CheckTypeSize/MODE_T.c
+Linking C executable cmTryCompileExec3271659062
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3271659062.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec3271659062.dir/MODE_T.c.o  -o cmTryCompileExec3271659062  
+
+
+Determining size of off_t passed with the following output:
+Change Dir: /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1287243534/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec1287243534.dir/build.make CMakeFiles/cmTryCompileExec1287243534.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1287243534.dir/OFF_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1287243534.dir/OFF_T.c.o   -c /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CheckTypeSize/OFF_T.c
+Linking C executable cmTryCompileExec1287243534
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1287243534.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec1287243534.dir/OFF_T.c.o  -o cmTryCompileExec1287243534  
+
+
+Determining size of pid_t passed with the following output:
+Change Dir: /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec574901490/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec574901490.dir/build.make CMakeFiles/cmTryCompileExec574901490.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec574901490.dir/PID_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec574901490.dir/PID_T.c.o   -c /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CheckTypeSize/PID_T.c
+Linking C executable cmTryCompileExec574901490
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec574901490.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec574901490.dir/PID_T.c.o  -o cmTryCompileExec574901490  
+
+
+Determining size of size_t passed with the following output:
+Change Dir: /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1330967521/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec1330967521.dir/build.make CMakeFiles/cmTryCompileExec1330967521.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1330967521.dir/SIZE_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1330967521.dir/SIZE_T.c.o   -c /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CheckTypeSize/SIZE_T.c
+Linking C executable cmTryCompileExec1330967521
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1330967521.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec1330967521.dir/SIZE_T.c.o  -o cmTryCompileExec1330967521  
+
+
+Determining size of ssize_t passed with the following output:
+Change Dir: /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1425333490/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec1425333490.dir/build.make CMakeFiles/cmTryCompileExec1425333490.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1425333490.dir/SSIZE_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1425333490.dir/SSIZE_T.c.o   -c /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CheckTypeSize/SSIZE_T.c
+Linking C executable cmTryCompileExec1425333490
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1425333490.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec1425333490.dir/SSIZE_T.c.o  -o cmTryCompileExec1425333490  
+
+
+Determining size of uid_t passed with the following output:
+Change Dir: /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4262551929/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec4262551929.dir/build.make CMakeFiles/cmTryCompileExec4262551929.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4262551929.dir/UID_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec4262551929.dir/UID_T.c.o   -c /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CheckTypeSize/UID_T.c
+Linking C executable cmTryCompileExec4262551929
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4262551929.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec4262551929.dir/UID_T.c.o  -o cmTryCompileExec4262551929  
+
+
+Determining size of uint16_t passed with the following output:
+Change Dir: /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2115995636/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec2115995636.dir/build.make CMakeFiles/cmTryCompileExec2115995636.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2115995636.dir/UINT16_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2115995636.dir/UINT16_T.c.o   -c /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CheckTypeSize/UINT16_T.c
+Linking C executable cmTryCompileExec2115995636
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2115995636.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec2115995636.dir/UINT16_T.c.o  -o cmTryCompileExec2115995636  
+
+
+Determining size of uint32_t passed with the following output:
+Change Dir: /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3471415267/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec3471415267.dir/build.make CMakeFiles/cmTryCompileExec3471415267.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3471415267.dir/UINT32_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3471415267.dir/UINT32_T.c.o   -c /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CheckTypeSize/UINT32_T.c
+Linking C executable cmTryCompileExec3471415267
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3471415267.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec3471415267.dir/UINT32_T.c.o  -o cmTryCompileExec3471415267  
+
+
+Determining size of uint64_t passed with the following output:
+Change Dir: /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec570191361/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec570191361.dir/build.make CMakeFiles/cmTryCompileExec570191361.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec570191361.dir/UINT64_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec570191361.dir/UINT64_T.c.o   -c /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CheckTypeSize/UINT64_T.c
+Linking C executable cmTryCompileExec570191361
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec570191361.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec570191361.dir/UINT64_T.c.o  -o cmTryCompileExec570191361  
+
+
+Determining size of uintmax_t passed with the following output:
+Change Dir: /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3942563390/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec3942563390.dir/build.make CMakeFiles/cmTryCompileExec3942563390.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3942563390.dir/UINTMAX_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3942563390.dir/UINTMAX_T.c.o   -c /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CheckTypeSize/UINTMAX_T.c
+Linking C executable cmTryCompileExec3942563390
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3942563390.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec3942563390.dir/UINTMAX_T.c.o  -o cmTryCompileExec3942563390  
+
+
+Determining size of wchar_t passed with the following output:
+Change Dir: /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1572281382/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec1572281382.dir/build.make CMakeFiles/cmTryCompileExec1572281382.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1572281382.dir/SIZEOF_WCHAR_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1572281382.dir/SIZEOF_WCHAR_T.c.o   -c /Users/Alex/Developer/ruby/movieTagger/atomicParsley/source/CMakeFiles/CheckTypeSize/SIZEOF_WCHAR_T.c
+Linking C executable cmTryCompileExec1572281382
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1572281382.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec1572281382.dir/SIZEOF_WCHAR_T.c.o  -o cmTryCompileExec1572281382  
+
+

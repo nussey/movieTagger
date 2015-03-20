@@ -1,0 +1,3 @@
+This module creates a text list of the movies that need to be run against atomic parsley. I only use the option that looks for newer XML files and the one that looks for untagged movies.
+
+The .VB is the file you can read. I also put in the res file that creates the UI but it's not critical so you probably don't need it.

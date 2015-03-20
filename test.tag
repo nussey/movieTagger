@@ -1,0 +1,11 @@
+tagged=true
+id=488
+title=African Queen
+genre=Action
+composer=|This|Code|Totally|Works|
+description=At the start of the first World War, in the middle of Africa’s nowhere, a gin soaked riverboat captain is persuaded by a strong-willed missionary to go down river and face-off a German warship.
+artist=Humphrey Bogart, Katharine Hepburn, Robert Morley
+year=1953
+contentRating=G
+artwork=/Users/Alex/Desktop/test.jpg
+stik=Short Film
