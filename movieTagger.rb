@@ -24,7 +24,7 @@ $stik = "Short Film"
 
 #List of characters which needs to have escape characters in the final command
 #Line calls
-$eChars = ["(",")"," ","|"]
+$eChars = ["(",")"," ","|","<",">","?","\"",".","=","-","/",":"]
 
 #Get information about a movie from The Movie DB using its ID
 def fetchMovieData(movieID)
@@ -138,37 +138,41 @@ def buildStupidXML(actors,directors)
     #directors = fetchMovieDirectors(movieID).split(", ")
     actors = actors.split(", ")
     directors = directors.split(", ")
-    xml = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n"
+    xml = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r"
+    puts(xml)
+    puts("--")
     xml += "<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\""
-    xml += " \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">\n"
-    xml += "<plist version=\"1.0\">\n"
-    xml += "<dict>\n"
-    xml += "\t<key>cast</key>\n"
-    xml += "\t<array>\n"
+    puts(xml)
+    xml += " \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">\r"
+    xml += "<plist version=\"1.0\">\r"
+    xml += "<dict>\r"
+    xml += "\t<key>cast</key>\r"
+    xml += "\t<array>\r"
     
+    puts(xml)
     actors.each do |actor|
-        xml+="\t\t<dict>\n"
-        xml+="\t\t\t<key>name</key>\n"
-        xml+="\t\t\t<string>#{actor}</string>\n"
-        xml+="\t\t</dict>\n"
+        xml+="\t\t<dict>\r"
+        xml+="\t\t\t<key>name</key>\r"
+        xml+="\t\t\t<string>#{actor}</string>\r"
+        xml+="\t\t</dict>\r"
     end
 
-    xml += "\t</array>\n"
+    xml += "\t</array>\r"
 
-    xml += "\t<key>directors</key>\n"
-    xml += "\t<array>\n"
+    xml += "\t<key>directors</key>\r"
+    xml += "\t<array>\r"
     
     directors.each do |director|
-        xml+="\t\t<dict>\n"
-        xml+="\t\t\t<key>name</key>\n"
-        xml+="\t\t\t<string>#{director}</string>\n"
-        xml+="\t\t</dict>\n"
+        xml+="\t\t<dict>\r"
+        xml+="\t\t\t<key>name</key>\r"
+        xml+="\t\t\t<string>#{director}</string>\r"
+        xml+="\t\t</dict>\r"
     end
 
-    xml += "\t</array>\n"
+    xml += "\t</array>\r"
 
-    xml += "</dict>\n"
-    xml += "</plist>\n"
+    xml += "</dict>\r"
+    xml += "</plist>"
 
     #I was kind of expecting to see a </xml> tag here, but there is not one in the source you gave me, and I am far from an XML expert, so clearly it is not needed
 end
@@ -304,7 +308,7 @@ Dir.glob("/Users/Alex/Desktop/**/*.{tag}") do |tagPath|
             #so that the modifications don't effec other movie files
             #Do the same with the "tagged" and "directors" tags
             thisTagData = tagData.clone.tap { |hs| hs.delete("id"); 
-                hs.delete("tagged"); hs.delete("directors")}
+                hs.delete("tagged"); hs.delete("directors"); hs.delete("artist")}
 
             #Get the resolution of the movie file
             resolution = stripResolution(movieName)
@@ -329,8 +333,9 @@ Dir.glob("/Users/Alex/Desktop/**/*.{tag}") do |tagPath|
             end
 
             #For some reason, this has to be the last argument
-            cmd+=(" --rDNSatom "+esc(xml)+" name=iTunMOVI domain=com.apple.iTunes")
+            cmd+=(" --rDNSatom \'#{xml}\' name=iTunMOVI domain=com.apple.iTunes")
 
+            #puts(cmd)
             puts "Tagger ready, executing on current movie file"
 
             #Execute the command!
