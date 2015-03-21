@@ -138,40 +138,40 @@ def buildStupidXML(actors,directors)
     #directors = fetchMovieDirectors(movieID).split(", ")
     actors = actors.split(", ")
     directors = directors.split(", ")
-    xml = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r"
+    xml = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>"
     puts(xml)
     puts("--")
     xml += "<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\""
     puts(xml)
-    xml += " \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">\r"
-    xml += "<plist version=\"1.0\">\r"
-    xml += "<dict>\r"
-    xml += "\t<key>cast</key>\r"
-    xml += "\t<array>\r"
+    xml += " \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">"
+    xml += "<plist version=\"1.0\">"
+    xml += "<dict>"
+    xml += "\t<key>cast</key>"
+    xml += "\t<array>"
     
     puts(xml)
     actors.each do |actor|
-        xml+="\t\t<dict>\r"
-        xml+="\t\t\t<key>name</key>\r"
-        xml+="\t\t\t<string>#{actor}</string>\r"
-        xml+="\t\t</dict>\r"
+        xml+="\t\t<dict>"
+        xml+="\t\t\t<key>name</key>"
+        xml+="\t\t\t<string>#{actor}</string>"
+        xml+="\t\t</dict>"
     end
 
-    xml += "\t</array>\r"
+    xml += "\t</array>"
 
-    xml += "\t<key>directors</key>\r"
-    xml += "\t<array>\r"
+    xml += "\t<key>directors</key>"
+    xml += "\t<array>"
     
     directors.each do |director|
-        xml+="\t\t<dict>\r"
-        xml+="\t\t\t<key>name</key>\r"
-        xml+="\t\t\t<string>#{director}</string>\r"
-        xml+="\t\t</dict>\r"
+        xml+="\t\t<dict>"
+        xml+="\t\t\t<key>name</key>"
+        xml+="\t\t\t<string>#{director}</string>"
+        xml+="\t\t</dict>"
     end
 
-    xml += "\t</array>\r"
+    xml += "\t</array>"
 
-    xml += "</dict>\r"
+    xml += "</dict>"
     xml += "</plist>"
 
     #I was kind of expecting to see a </xml> tag here, but there is not one in the source you gave me, and I am far from an XML expert, so clearly it is not needed
@@ -308,7 +308,7 @@ Dir.glob("/Users/Alex/Desktop/**/*.{tag}") do |tagPath|
             #so that the modifications don't effec other movie files
             #Do the same with the "tagged" and "directors" tags
             thisTagData = tagData.clone.tap { |hs| hs.delete("id"); 
-                hs.delete("tagged"); hs.delete("directors"); hs.delete("artist")}
+                hs.delete("tagged"); hs.delete("directors");}
 
             #Get the resolution of the movie file
             resolution = stripResolution(movieName)
