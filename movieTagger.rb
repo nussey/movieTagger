@@ -274,6 +274,8 @@ Dir.glob("/Users/Alex/Desktop/**/*.{tag}") do |tagPath|
             end
 
             puts "Downoading image from online"
+
+            tagData["artwork"] = namedPath
         end
     #If there is a defined path to an image, and it doesnt exist,    
     elsif(!File.exists?(tagData["artwork"]))
