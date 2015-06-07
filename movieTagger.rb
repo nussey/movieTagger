@@ -1,6 +1,9 @@
 require 'rubygems'
 require 'JSON'
-require 'RestClient'
+require 'rest-client'
+#Lets try using rest-client library instead, the RestClient lib is getting deprecated
+#soon, so it would be better if we can make the. It SHOULDNT effect things
+#require 'RestClient'
 require 'Date'
 require 'open-uri'
 
@@ -13,7 +16,8 @@ $requiredTags = ["tagged","id","genre","composer","title"]
 #List of tags that MAY be present in the tag file, otherwise just download them
 $optionalTags = ["description","artist","year","contentRating","directors"]
 #File address of the Atomic Parsley on the system
-$atomicParsley = "/Users/Alex/Developer/ruby/movieTagger/atomicParsley/AtomicParsley"
+#$atomicParsley = "/Users/Alex/Developer/ruby/movieTagger/atomicParsley/AtomicParsley"
+$atomicParsley = "/Users/bill/dropbox/personal/Media and Tech Projects/Movie Tagger/AtomicParsley"
 #Define a constant to later hold the base URL for accessing cover art
 $imageBase
 #How many actors do you want to include in the tag
@@ -24,7 +28,7 @@ $stik = "Short Film"
 
 #List of characters which needs to have escape characters in the final command
 #Line calls
-$eChars = ["(",")"," ","|","<",">","?","\"",".","=","-","/",":"]
+$eChars = ["(",")"," ","|","<",">","?","\"",".","=","-","/",":",";"]
 
 #Get information about a movie from The Movie DB using its ID
 def fetchMovieData(movieID)
@@ -39,7 +43,10 @@ def fetchMovieData(movieID)
     data = JSON.parse(data)
 
     #Reformat some data to make it easier to work with later
+    #2015-04 BN: added a translation step so that apostrophes, like "he's" willl get 
+    #   passed correctly
     data["description"] = data["overview"][0..249]
+
     
     #Get the information that was not included in the first API call
     #Rating and date info
@@ -116,6 +123,10 @@ end
 
 #Adds escape characters at relevant positions in a string
 def esc(inString)
+    #2015-04-04 BN: gsub stumbles on apostrophes so I created a unique treatment for them
+    #   from http://stackoverflow.com/questions/8929218/how-to-replace-an-apostrophe-using-gsub
+    inString = inString.gsub(/[']/, "\\\\\'")
+
     #For each of the characters in the list of characters to be escaped
     $eChars.each do |thisChar|
         #Replace every instance of thisChar with thisChar appended to an
@@ -139,17 +150,13 @@ def buildStupidXML(actors,directors)
     actors = actors.split(", ")
     directors = directors.split(", ")
     xml = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>"
-    puts(xml)
-    puts("--")
     xml += "<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\""
-    puts(xml)
     xml += " \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">"
     xml += "<plist version=\"1.0\">"
     xml += "<dict>"
     xml += "\t<key>cast</key>"
     xml += "\t<array>"
     
-    puts(xml)
     actors.each do |actor|
         xml+="\t\t<dict>"
         xml+="\t\t\t<key>name</key>"
@@ -193,7 +200,8 @@ end
 
 #Grab current image grabbing configuration, store it in global variables for later use
 configureImages()
-Dir.glob("/Users/Alex/Desktop/**/*.{tag}") do |tagPath|
+Dir.glob("/Users/bill/movies/dvdrip/encoded/**/*.{tag}") do |tagPath|
+#Dir.glob("/Users/alex/Desktop/**/*.{tag}") do |tagPath|
     puts "------------------------------"
     #Let the user know that we found a Tag File
     puts "Found tag file: #{tagPath}"
@@ -292,10 +300,11 @@ Dir.glob("/Users/Alex/Desktop/**/*.{tag}") do |tagPath|
     
 
     #The tag data is now prepared, time to find any correspoinding movies
-    Dir.glob(File.dirname(tagPath)+"/*.{mp4}") do |moviePath|
+    #2015-04 BN: changed the default extension to M4V which most movies use
+    Dir.glob(File.dirname(tagPath)+"/*.{m4v}") do |moviePath|
 
         #Create strings that are just the names of the movie and tag files
-        movieName = File.basename(moviePath,".mp4")
+        movieName = File.basename(moviePath,".m4v")
         tagFileName = File.basename(tagPath,".tag")
 
         #If the name of the tag file appears within hte name of the movie file
@@ -331,7 +340,9 @@ Dir.glob("/Users/Alex/Desktop/**/*.{tag}") do |tagPath|
             #Loop thorugh each one of the keys in the tag file and add it
             #to the command we are going to execute
             thisTagData.each do |k,v|
-                cmd+=(" --"+k+" "+esc(v))
+                if(!v.nil?)
+                    cmd+=(" --"+k+" "+esc(v))
+                end
             end
 
             #For some reason, this has to be the last argument
@@ -355,7 +366,11 @@ Dir.glob("/Users/Alex/Desktop/**/*.{tag}") do |tagPath|
 
     #Add each tag on to the string
     tagData.each do |k,v|
-        finalData+=(k+"="+v+"\n")
+        finalData+=k+"="
+        if(!v.nil?)
+            finalData+=v
+        end
+        finalData+="\n"
     end
 
     #Write the data back to the text file, erasing anyting that was there before
