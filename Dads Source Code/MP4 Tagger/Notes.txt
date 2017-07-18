@@ -1,3 +1,0 @@
-The Tagger app is the one that creates the command line and runs atomic parsley. It basically reads in a list of movies and executes the proper tagging based on the movies.xml file in the movie's directory. You can see examples of this in any of our movie directories.
-
-One simple optimization would be to use a library that reads XML natively rather than the manual parsing I did (VB has built-in XML parsing but it's a mess to learn so I punted)

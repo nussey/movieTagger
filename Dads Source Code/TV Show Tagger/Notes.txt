@@ -1,1 +1,0 @@
-The TV Tagger app does the same thing as the movie tagger, except for TV shows. It assume a different directory structure and focuses on different tags in Atomic Parsley. It also allows for unique cover art per episode and reads a custom-created text file I invented (and have guys in India creating) for creating the descriptions, etc.
